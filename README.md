@@ -4,4 +4,10 @@
 Merly is a micro framework for declaring routes and handling requests. Quickly creating web applications in Julia with minimal effort.
 
 
-Deploy in docker using 5 replicas and load balancer with Nginx
+Deploy in docker using 5 replicas and load balancer with Nginx.
+
+```bash
+git clone https://github.com/neomatrixcode/merly-nginx-loadbalancer.git
+cd merly-nginx-loadbalancer
+docker-compose up
+```
